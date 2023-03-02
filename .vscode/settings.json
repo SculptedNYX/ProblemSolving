@@ -5,6 +5,7 @@
         "corecrt_math_defines.h": "c",
         "corecrt_math.h": "c",
         "stdbool.h": "c",
-        "ctype.h": "c"
+        "ctype.h": "c",
+        "xstring": "cpp"
     }
 }

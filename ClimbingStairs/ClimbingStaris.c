@@ -1,7 +1,9 @@
 #include <stdio.h>
+#include <stdlib.h>
 
+int createDecisionTree(int target, int* values);
 int climbStairs(int n);
-int createDecisionTree(int currentStep, int target);
+
 
 int main()
 {
@@ -12,20 +14,27 @@ int main()
 
 int climbStairs(int n)
 {
-    return createDecisionTree(0, n);
+    if(n<=2){return n;}
+    int* values = (int*) malloc(sizeof(int)*(n+1));
+    for(int i = 0; i < n+1; i++)
+    {
+        values[i] = -1;
+    }
+    return createDecisionTree(n, values);
 }
 
-int createDecisionTree(int currentStep, int target)
+int createDecisionTree(int target, int* values)
 {
-    if(currentStep == target)
+    if(target <= 2)
     {
-        return 1;
+        return target;
     }
 
-    if(currentStep > target)
+    if(values[target] != -1)
     {
-        return 0;
+        return values[target];
     }
 
-    return createDecisionTree(currentStep + 1,target) + createDecisionTree(currentStep + 2, target);
+    values[target] = createDecisionTree(target-1, values) + createDecisionTree(target-2, values);
+    return values[target];
 }

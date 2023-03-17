@@ -23,7 +23,7 @@ void stackProcessor(stack<int> &s)
         {
         case 1:
             cin >> tmp;
-            s.push(tmp);
+            s.emplace(tmp);
             break;
         case 2:
             s.pop();

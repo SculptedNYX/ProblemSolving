@@ -1,0 +1,54 @@
+Topics to study
+STLs:- vector, stack, queue, deque, unordered_map.
+and finally linked lists (optional).
+Linked list problems are optional for now.  
+
+1 - Left Rotation Problem
+https://www.hackerrank.com/challenges/array-left-rotation/problem
+2 -  Easy Stack Problem
+https://www.spoj.com/problems/STACKEZ/en/
+3 - Easy Queue
+https://www.spoj.com/problems/QUEUEEZ/en/
+4 - Balanced Brackets
+https://www.hackerrank.com/challenges/balanced-brackets/problem
+5 - Ada and the Queue
+https://www.spoj.com/problems/ADAQUEUE/en/
+6 - Array
+https://codeforces.com/problemset/problem/300/A
+7 - Jzzhu and Children
+https://codeforces.com/problemset/problem/450/A
+8 - Simple Text Editor
+https://www.hackerrank.com/challenges/simple-text-editor/problem
+9 - Tanya and Stairways
+https://codeforces.com/problemset/problem/1005/A
+10 - Alternating Current
+https://codeforces.com/problemset/problem/343/B
+11 - Card Deck
+https://codeforces.com/problemset/problem/1492/B
+12 - Boy or Girl
+https://codeforces.com/problemset/problem/236/A
+13 -Registration System
+ https://codeforces.com/problemset/problem/4/C
+14 - Cancel the Trains
+https://codeforces.com/problemset/problem/1453/A
+15 - Anton and Letters
+https://codeforces.com/problemset/problem/443/A
+LeetCode
+1 - Happy Number
+https://leetcode.com/problems/happy-number/
+2 - Valid Anagram
+https://leetcode.com/problems/valid-anagram/
+3 - Contains Duplicate
+https://leetcode.com/problems/contains-duplicate-ii/
+4 - Add Two Numbers
+https://leetcode.com/problems/add-two-numbers/
+5 - Remove Nth Node From End of List
+https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+6 - Remove Linked List Elements
+https://leetcode.com/problems/remove-linked-list-elements/
+7 - Reorder List
+https://leetcode.com/problems/reorder-list/
+8 - Reverse a linked list
+https://leetcode.com/problems/reverse-linked-list-ii/
+9 - Implement a stack using a queue
+https://leetcode.com/problems/implement-stack-using-queues/
